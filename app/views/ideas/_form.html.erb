@@ -21,6 +21,8 @@
     <%= form.text_area :description, id: :idea_description, class:"form-control"%>
   </div>
 
+<%= form.hidden_field :idea_id %>
+
   <div class="form-group">
     <%= form.label :picture %>
     <%= form.file_field :picture, id: :idea_picture %>
